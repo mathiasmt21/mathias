@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="imagem.png" alt="avatar de Mateus" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou mateus</p>
+        <h1>Eu ensino Programação</h1>
+        <p>Sou estudade de Computação e Pedagoga.eu to aprendendo programação, a mexer no javaScript,
+         etc!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeito corrida.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeito de corrida </h5>
+                        <p class="card-text">Este projeto é um jogo de corrida onde tem 4 personagens,
+                            ai o que chegar na linha de chegada ganhar!
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeito quente frio.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeito Quente Frio</h5>
+                        <p class="card-text">Este projeto é um jogo que o jogador controla uma bola
+                         que tem que encontrar um ponto!.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="monalisa.png" class="card-img-top" alt="Imagem do projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeito monalisa!
+                        </h5>
+                        <p class="card-text">Este projeto Agente teve que criar uma Monalisa!
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeito Corridas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">Este projeto é um jogo de corrida onde tem 4 personagens,
+                            ai o que chegar na linha de chegada ganhar!</p>
+                    <img src="projeito corrida.png" class="img-fluid w-100"
+                        alt="Imagem Projeito corrida">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/mateus.gm/sketches/GPx9bw3Fu">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/mateus.gm/sketches/GPx9bw3Fu">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeito Quente Frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo que o jogador controla uma bola
+                         que tem que encontrar um ponto!
+                    </p>
+                    <img src="projeito quente frio.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/mateus.gm/sketches/EEZkfnfKZ">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/mateus.gm/sketches/EEZkfnfKZ">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeito Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto Agente teve que criar uma Monalisa!</p>
+                    <img src="monalisa.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/mateus.gm/sketches/YbIhxFMYy">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
